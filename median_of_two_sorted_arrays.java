@@ -9,7 +9,7 @@ public class median_of_two_sorted_arrays {
         int ans[]=new int[n+m];
         int index=0;
         while(i<n&&j<m)
-        {
+        {    
             if(nums1[i]<=nums2[j])
             {
                 ans[index]=nums1[i];
